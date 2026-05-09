@@ -19,7 +19,7 @@ function Signup(props) {
     }
 
 function checkuser(){
-    var newuser = setmyusers([...myusers,{username:myusername, password:myuserpass}])
+    setmyusers([...myusers,{username:myusername, password:myuserpass}])
     navigate("/")
 }
 
