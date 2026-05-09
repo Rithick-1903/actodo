@@ -8,7 +8,6 @@ function Login(props) {
     const [myuserpass, setmyuserpass] = useState("")
     const [ruser, setruser] = useState(true)
 
-    const setmyusers = props.setmyusers
     const myusers = props.myusers
 
 
