@@ -1,8 +1,5 @@
 
 import { BrowserRouter, Route, Routes} from "react-router-dom";
-import Addtodoform from "./components/Addtodoform";
-import Addtodolist from "./components/Addtodolist";
-import Todolist from "./components/Todolist";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
