@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { useState } from "react"
 
 function Signup(props) {
-    const Navigate = useNavigate()
+    const navigate = useNavigate()
     const setmyusers = props.setmyusers
     const myusers = props.myusers
 
@@ -20,7 +20,7 @@ function Signup(props) {
 
 function checkuser(){
     var newuser = setmyusers([...myusers,{username:myusername, password:myuserpass}])
-    Navigate("/")
+    navigate("/")
 }
 
 
